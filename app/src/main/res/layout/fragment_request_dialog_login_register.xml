@@ -1,0 +1,81 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/dialogloginrequest"
+    tools:context="ng.hotels.android.app.ui.fragments.RequestDialogLoginRegisterFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="31dp"
+        android:layout_height="31dp"
+        android:layout_gravity="right|center_horizontal"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:background="#FFFFFF"
+        android:src="@drawable/img_close"/>
+
+
+
+    <TextView
+        android:id="@+id/hotels_ng"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:fontFamily="Lato"
+        android:gravity="center"
+        android:text="@string/hotels_ng"
+        android:textColor="#FFFFFF"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/please_sign"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:fontFamily="Lato"
+        android:gravity="center_horizontal"
+        android:text="@string/please_sign"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        android:typeface="normal" />
+
+
+    <Button
+        android:id="@+id/request_sign_in"
+        android:layout_width="190dp"
+        android:layout_height="46.54dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/request_signing_btn"
+        android:text="@string/request_sign_in"
+        android:textColor="#2D9CDB"
+        android:textSize="18sp"
+        android:fontFamily="Lato"/>
+
+    <TextView
+        android:id="@+id/don_t_have_"
+        android:layout_width="335.75dp"
+        android:layout_height="61dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="40dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="Lato"
+        android:gravity="center_horizontal"
+        android:text="@string/don_t_have_"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
